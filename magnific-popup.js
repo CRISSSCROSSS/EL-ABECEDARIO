@@ -1517,9 +1517,7 @@ $.magnificPopup.registerModule('zoom', {
 
 
 			/*
-
 			Animating left + top + width/height looks glitchy in Firefox, but perfect in Chrome. And vice-versa.
-
 			 */
 			var obj = {
 				width: el.width(),
@@ -1858,3 +1856,4 @@ $.magnificPopup.registerModule(RETINA_NS, {
 
 /*>>retina*/
  _checkInstance(); }));
+ 

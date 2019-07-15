@@ -10,7 +10,7 @@ body {
 hr {
   border-color: #F05F40;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 100px;
 }
 hr.bold {
   border-color: white;
@@ -151,14 +151,14 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('https://cdn.glitch.com/ffd01877-d5ff-457b-acf1-f5a12a35c453%2Fw.png');
+  background-image: url('https://cdn.glitch.com/eee171ee-a183-48bc-93e7-5421b069c52c%2F3%20bru%C3%B1o.jpg?v=1563149725438');
   text-align: center;
   color: white;
 }
 header .header-content {                <p>
   position: relative;
   text-align: center;
-  padding: 100px 30px 100px;
+  padding: 200px 50px 200px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -206,24 +206,27 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: 0;
+  width: 100%;
 }
 .service-box {
   max-width: 400px;
-  margin: 50px auto 0;
+  margin: 0px auto 0
+    ;width: 210%
 }
 @media (min-width: 992px) {
   .service-box {
-    margin: 20px auto 0;
+    margin: 20px auto 0;width: 210%
   }
 }
 .service-box p {
-  margin-bottom: 0;
+  margin-bottom: 0;width: 210%
 }
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  width: 210%
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -232,16 +235,16 @@ header .header-content .header-content-inner p {
   background: rgba(240, 95, 64, 0.9);
   position: absolute;
   bottom: 0;
-  text-align: center;
-  width: 100%;
+  text-align: cover;
+  width: 210%;
   height: 100%;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  width: 100%;
-  text-align: center;
+  width: 210%;
+  text-align: cover;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -250,20 +253,25 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
+  width: 210%
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
+  width: 210%
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
+  width: 210%
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+  width: 210%
 }
 .portfolio-box:focus {
   outline: none;
+  width: 210%
 }
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -300,6 +308,7 @@ header .header-content .header-content-inner p {
   color: #222222;
   background-color: #f2f2f2;
   border-color: #ededed;
+  width: 210%
 }
 .btn-default:active,
 .btn-default.active,
@@ -409,4 +418,5 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+  width: 210%
 }
